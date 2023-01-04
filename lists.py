@@ -25,3 +25,16 @@ print(numbers2)
 print(len(numbers2))
 
 print(numbers2[50])
+
+var_3 = []
+
+var_3.append(list(range(0,10)))
+var_3.append(list(range(10,20)))
+var_3.append(list(range(20,30)))
+
+print(var_3)
+
+for x in var_3:
+    print(x)
+    for y in x:
+        print(y)
