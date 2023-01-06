@@ -61,9 +61,11 @@ objects = []
 for i in range(10):
     nums = []
     for j in range(5):
-        nums.append(random.randint(0, 10))
+        number = random.randint(0, 10)
+        nums.append(number)
         
-    objects.append({"numbers":nums})
+    dict_obj = {"numbers":nums}
+    objects.append(dict_obj)
 
 print(objects)
 
